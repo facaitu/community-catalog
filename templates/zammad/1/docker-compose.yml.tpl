@@ -51,7 +51,7 @@ services:
       - zammad-data:/opt/zammad
 
   zammad-lb:
-    image: rancher/lb-service-haproxy:v0.7.9
+    image: rancher/lb-service-haproxy:v0.7.15
     ports:
       - ${PUBLISH_PORT}:${PUBLISH_PORT}/tcp
 
