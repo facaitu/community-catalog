@@ -71,8 +71,8 @@ services:
     restart: always
     volumes:
       - zammad-data:/opt/zammad
-    expose:
-      - "80"
+    ports:
+      - "80:80"
 
   zammad-postgresql:
     image: zammad/zammad-docker-compose:zammad-postgresql-2.2.0-22
