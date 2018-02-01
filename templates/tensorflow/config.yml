@@ -1,0 +1,8 @@
+name: tensorflow
+description: |
+  Jupyter Notebook Scientific Python Stack + Tensorflow
+version: 0.1
+category: data Science
+maintainer: eltitopera
+license: Apache license
+projectURL: http://github.com/eltitopera/rancher-catalog
