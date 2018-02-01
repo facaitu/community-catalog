@@ -1,0 +1,18 @@
+version: '2'
+services:
+  alpine-3-5:
+    image: alpine:3.5
+    labels:
+      io.rancher.container.pull_image: 'always'
+      io.rancher.container.start_once: 'true'
+      io.rancher.container.dns: 'true'
+      satrapu.rancher.workshop: 'Java Tech Group Day #5'
+    environment:
+      tgd_edition: 5
+      tgd_options_enum: ${options_enum}
+      tgd_options_boolean: ${options_boolean}
+      tgd_options_string: ${options_string}
+    command: ['tail', '-f', '/dev/null']
+    stdin_open: true
+    tty: true
+    mem_limit: 200000000
