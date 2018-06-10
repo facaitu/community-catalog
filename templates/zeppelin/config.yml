@@ -1,0 +1,8 @@
+name: Zeppelin
+description: |
+  Web-based notebook that enables data-driven, interactive data analytics and collaborative documents with SQL, Scala and more.
+version: 0.1
+category: data science
+maintainer: eltitopera
+license: Apache license
+projectURL: http://github.com/eltitopera/rancher-catalog
