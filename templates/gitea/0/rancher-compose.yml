@@ -1,7 +1,7 @@
 version: '2'
 catalog:
   name: "Gitea"
-  version: "v1.3"
+  version: "v1.4.2"
   description: "A painless self-hosted Git service."
   uuid: gitea-0
   minimum_rancher_version: v0.56.0

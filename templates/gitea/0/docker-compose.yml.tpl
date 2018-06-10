@@ -1,7 +1,7 @@
 version: '2'
 services:
   gitea:
-    image: gitea/gitea:1.3.0
+    image: gitea/gitea:1.4.2
     volumes:
       - gitea-data:/data
 
